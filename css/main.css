@@ -123,6 +123,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin-top: 2pc;
   width: 100%;
 }
 .brand_logo_container .brand_img {
@@ -215,7 +216,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  gap: 120px;
+  gap: 160px;
   margin-top: 20px;
 }
 @media (max-width: 599px) {
@@ -237,8 +238,14 @@ body {
 }
 @media (max-width: 599px) {
   .inner-flex .flex-items {
-    width: 150px;
-    height: 150px;
+    gap: 10px;
+    width: 160px;
+    height: 160px;
+  }
+}
+@media (max-width: 599px) {
+  .inner-flex {
+    gap: 30px;
   }
 }
 .inner-flex .info-container {
@@ -264,6 +271,12 @@ body {
   box-shadow: 7px 7px 5px 0px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: 7px 7px 5px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 7px 7px 5px 0px rgba(0, 0, 0, 0.75);
+}
+@media (max-width: 599px) {
+  .inner-flex .info-container .info-wrapper {
+    width: 160px;
+    height: 160px;
+  }
 }
 .inner-flex .info-container span {
   color: rgb(255, 255, 255);
