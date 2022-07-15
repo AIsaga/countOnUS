@@ -11,10 +11,12 @@
 
   <body>
     <section>
+
       <div class="main_container">
         <div class="bgImg">
-                  <img src="./images/worldmap_us.png" alt="world_map">
+          <img src="./images/worldmap_us.png" alt="world_map">
         </div>
+
         <div class="inner_container">
           <div class="main_wrapper">
             <div class="main_container_left">
@@ -30,19 +32,20 @@
                 </div>
               </div>
             </div>
-            
+
             <div class="main_container_right">
               <div class="flex_container">
                 <div class="inner-flex">
-                   <div class="flex-items" id="item-3">
-                    <img src="https://cdn.pixabay.com/photo/2015/11/06/11/45/interior-1026452_960_720.jpg" class="services-bg" alt="" />
+                  <div class="flex-items" id="item-3">
+                    <img src="https://cdn.pixabay.com/photo/2015/11/06/11/45/interior-1026452_960_720.jpg"
+                      class="services-bg" alt="" />
                     <a href="./pages/comingsoonpage.html" class="info-container">
                       <div class="info-wrapper info-4">
                         <span>Hotel</span>
                       </div>
                     </a>
                   </div>
-                    <div class="flex-items" id="item-0">
+                  <div class="flex-items" id="item-0">
                     <img src="./images/spasalon_us.jpg" class="services-bg" alt="services" />
                     <a href="http://radiantsalon.co.in" class="info-container">
                       <div class="info-wrapper info-1">
@@ -68,21 +71,48 @@
                       </div>
                     </a>
                   </div>
-                
+
                 </div>
               </div>
             </div>
           </div>
-          <div id="announcement">
+          <!-- <div id="announcement">
                 <marquee >Live Text: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque perspiciatis facere totam eligendi dolores at error excepturi rem ea corporis?</marquee>
             </div>
-          </div>
+          </div> -->
 
         </div>
-
+        <!-- event button -->
+        <div class="wrap" id="wrap">
+          <button id="live-btn" class="button">live</button>
+        </div>
+        <!-- event update box -->
+        <div class="ev-container" id="ev-tgl">
+          <div class="ev-inner">
+            <div id="scroll-container">
+              <div id="scroll-text">
+                <ul>
+                  <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, aliquam?</li>
+                  <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, aliquam?</li>
+                  <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, aliquam?</li>
+                  <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, aliquam?</li>
+                </ul>
+               
+                <div>
+                </div>
+              </div>
+            </div>
     </section>
 
     </div>
+    <script>
+      const btnId = document.getElementById('wrap');
+      const evBox = document.getElementById('ev-tgl');
+
+      btnId.addEventListener('click', () => {
+        evBox.classList.toggle('ev-toggle')
+      })
+    </script>
   </body>
 
 </html>
