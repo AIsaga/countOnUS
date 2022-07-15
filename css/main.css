@@ -351,6 +351,7 @@ body {
   right: 3%;
   cursor: pointer;
   z-index: 999;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .button {
@@ -362,6 +363,10 @@ body {
   letter-spacing: 1.3px;
   font-weight: 3 0;
   color: #ff3131;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   background: #000000;
   border: none;
   border-radius: 1000px;
@@ -372,6 +377,7 @@ body {
   position: relative;
   padding: 10px;
   cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
 }
 
 button::before {
