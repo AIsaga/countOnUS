@@ -43,6 +43,7 @@ body {
 }
 
 header {
+  width: 100vw;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -100,7 +101,8 @@ header .header-img {
   font-family: "chopin";
   font-size: 6rem;
   margin-top: -70px;
-  color: #000000;
+  color: #ffffff;
+  text-shadow: 2px 0px 6px rgba(0, 0, 0, 0.6);
 }
 @media (max-width: 599px) {
   .brand_logo_container .brand_name_1 {
@@ -109,12 +111,13 @@ header .header-img {
   }
 }
 .brand_logo_container .brand_name_2 {
-  font-family: Raleway;
-  font-size: 3rem;
-  font-weight: 400;
-  margin-top: -30px;
-  color: #000000;
+  font-family: "Albert Sans", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 300;
+  margin-top: -20px;
+  color: #ffffff;
   font-family: "Khand", sans-serif;
+  text-shadow: 2px 0px 6px rgba(0, 0, 0, 0.6);
 }
 @media (max-width: 599px) {
   .brand_logo_container .brand_name_2 {
@@ -130,7 +133,7 @@ header .header-img {
   flex-direction: column;
   z-index: 1;
   height: 40vh;
-  background-color: rgba(0, 0, 0, 0.7960784314);
+  background-color: rgba(0, 0, 0, 0.2392156863);
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -156,80 +159,63 @@ header .header-img {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 60vh;
+  height: 100vh;
+  margin-top: 5%;
 }
 #section-one h1 {
+  font-size: 2.2rem;
   font-family: "Cinzel", serif;
-  font-weight: 800;
-  letter-spacing: 1px;
 }
-
-.services-container {
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+#section-one p {
+  font-size: 1.2em;
   font-family: "Albert Sans", sans-serif;
-  font-size: 1.2rem;
-  margin-top: 30px;
-}
-.services-container .services {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  text-align: center;
-  flex: 1;
-}
-.services-container .services .s-text {
-  padding-top: 10px;
-}
-.services-container .services .s-text span {
-  font-weight: 800;
 }
 
-#section-two {
-  min-height: 100vh;
-  background-color: #000;
-}
-#section-two .s-2-container .wrapper {
+.s-cards {
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row;
+  margin-top: 3%;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 0.5rem;
 }
-#section-two .s-2-container .wrapper .img-container {
-  flex: 1;
-}
-#section-two .s-2-container .wrapper .s-2-info-container {
+.s-cards .card {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  flex: 1;
-  font-family: "Albert Sans", sans-serif;
-  color: #fff;
-  font-size: 1.2rem;
-  letter-spacing: 1px;
-  line-height: 1.8rem;
-  height: 100%;
-}
-
-.img-container {
-  width: 50vw;
   position: relative;
+  width: 350px;
+  height: 300px;
 }
-.img-container img {
+.s-cards .card:hover > p {
+  opacity: 1;
+  bottom: 50%;
+}
+.s-cards .card img {
   width: 100%;
   filter: grayscale(100%) brightness(80%);
 }
-.img-container h1 {
+.s-cards .card p {
+  opacity: 0;
   position: absolute;
-  top: 50%;
+  bottom: 0;
   left: 50%;
-  transform: translate(-50%, -50%);
-  color: #fff;
-  font-size: 3rem;
+  color: rgb(255, 255, 255);
+  transform: translate(-50%, 50%);
+  font-size: 1.6rem !important;
   text-shadow: 2px 0px 6px rgba(0, 0, 0, 0.6);
-  z-index: 2;
-}/*# sourceMappingURL=hotel.css.map */
+  transition: all 0.3s ease;
+}
+
+#section-two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 5%;
+  filter: grayscale(100%);
+}/*# sourceMappingURL=salon.css.map */
