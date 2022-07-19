@@ -1,0 +1,224 @@
+@import url("https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Cinzel:wght@400;500;600;700;800&display=swap");
+@font-face {
+  font-family: "chopin";
+  src: url("../fonts/ChopinScript.otf") format("woff");
+}
+.page-header {
+  color: #ffffff;
+}
+
+.container {
+  background-color: #ffffff;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.container .img {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container .img img {
+  width: 300px;
+}
+.container .img h1 {
+  width: 100%;
+  color: #000;
+  text-align: center;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: rgba(255, 255, 255, 0.8549019608);
+}
+
+header {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+header .header-img {
+  width: 100%;
+  height: 100%;
+  filter: grayscale(100%) brightness(100%);
+  background-repeat: no-repeat;
+  background-position: 40px 70px;
+}
+
+.brand_logo_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0);
+  width: 100%;
+  height: 45vh;
+  padding: 20px 0;
+  position: absolute;
+  top: 7%;
+}
+.brand_logo_container .brand_img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 400px;
+}
+@media (max-width: 599px) {
+  .brand_logo_container .brand_img {
+    margin: 10px auto 0;
+    width: 150px;
+  }
+}
+.brand_logo_container .brand_img img {
+  width: 100%;
+}
+@media (max-width: 599px) {
+  .brand_logo_container .brand_img img {
+    margin: 100px auto 0;
+    width: 70%;
+  }
+}
+@media (max-width: 599px) {
+  .brand_logo_container .brand_img {
+    margin: -10px auto 0;
+  }
+}
+.brand_logo_container .brand_name_1 {
+  font-family: "chopin";
+  font-size: 6rem;
+  margin-top: -70px;
+  color: #000000;
+}
+@media (max-width: 599px) {
+  .brand_logo_container .brand_name_1 {
+    margin-top: -20px;
+    font-size: 3.5rem;
+  }
+}
+.brand_logo_container .brand_name_2 {
+  font-family: Raleway;
+  font-size: 3rem;
+  font-weight: 400;
+  margin-top: -30px;
+  color: #000000;
+  font-family: "Khand", sans-serif;
+}
+@media (max-width: 599px) {
+  .brand_logo_container .brand_name_2 {
+    margin-top: 10px;
+    font-size: 1.5rem;
+  }
+}
+
+.brand-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 1;
+  height: 40vh;
+  background-color: rgba(0, 0, 0, 0.7960784314);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.brand-info .heater-text-one {
+  font-family: "Cinzel", serif;
+  font-size: 2rem;
+  color: #ffffff;
+}
+.brand-info .heater-text-two {
+  font-family: "Albert Sans", sans-serif;
+  width: 60%;
+  font-size: 1.3rem;
+  text-align: center;
+  color: #ffffff;
+  line-height: 30px;
+  letter-spacing: 1px;
+  font-weight: lighter;
+}
+
+#section-one {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 60vh;
+}
+#section-one h1 {
+  font-family: "Cinzel", serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.services-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "Albert Sans", sans-serif;
+  font-size: 1.2rem;
+  margin-top: 30px;
+}
+.services-container .services {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  flex: 1;
+}
+.services-container .services .s-text {
+  padding-top: 10px;
+}
+.services-container .services .s-text span {
+  font-weight: 300;
+}
+
+#section-two {
+  min-height: 100vh;
+  background-color: #000;
+}
+#section-two .s-2-container .wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+#section-two .s-2-container .wrapper .img-container {
+  flex: 1;
+}
+#section-two .s-2-container .wrapper .s-2-info-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex: 1;
+  font-family: "Albert Sans", sans-serif;
+  color: #fff;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  line-height: 1.8rem;
+  height: 100%;
+}
+
+.img-container {
+  width: 50vw;
+}
+.img-container img {
+  width: 100%;
+  filter: grayscale(100%);
+}/*# sourceMappingURL=hotel.css.map */
