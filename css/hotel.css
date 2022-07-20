@@ -52,7 +52,7 @@ header {
 header .header-img {
   width: 100%;
   height: 100%;
-  filter: grayscale(100%) brightness(80%);
+  filter: grayscale(100%) brightness(70%);
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover;
@@ -79,7 +79,7 @@ header .header-img {
   align-items: center;
   flex-direction: column;
   background-color: rgba(0, 0, 0, 0);
-  width: 50%;
+  width: 100%;
   height: 40vh;
   position: absolute;
   left: 0;
@@ -128,7 +128,7 @@ header .header-img {
 }
 @media (max-width: 599px) {
   .brand_logo_container .brand_name_1 {
-    margin-top: -10px;
+    margin-top: -20px;
     font-size: 2.5rem;
   }
 }
@@ -154,7 +154,7 @@ header .header-img {
   align-items: center;
   flex-direction: column;
   z-index: 1;
-  height: 70vh;
+  height: 100vh;
   background-color: rgba(0, 0, 0, 0);
   position: absolute;
   bottom: 0;
@@ -169,6 +169,7 @@ header .header-img {
   }
 }
 .brand-info .heater-text-one {
+  margin-top: 20%;
   font-family: "Cinzel", serif;
   font-size: 2rem;
   color: rgb(255, 255, 255);
@@ -181,6 +182,7 @@ header .header-img {
     font-size: 1.5rem;
     text-align: center;
     width: 100%;
+    margin-top: 30%;
   }
 }
 .brand-info .heater-text-two {
@@ -208,7 +210,7 @@ header .header-img {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 60vh;
+  height: 100vh;
   position: relative;
 }
 #section-one h1 {
