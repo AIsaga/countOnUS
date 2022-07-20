@@ -191,6 +191,7 @@ header .header-img {
   align-items: center;
   flex-direction: column;
   min-height: 80vh;
+  margin-top: 5%;
 }
 #section-one h1 {
   font-size: 2.2rem;
@@ -207,11 +208,6 @@ header .header-img {
     font-size: 1.2rem;
   }
 }
-@media (max-width: 599px) {
-  #section-one {
-    margin-top: 5%;
-  }
-}
 
 .s-cards {
   position: relative;
@@ -222,7 +218,7 @@ header .header-img {
   margin-top: 1%;
   width: 100%;
   flex-wrap: wrap;
-  gap: 15px;
+  gap: 10px;
 }
 .s-cards .card {
   display: flex;
@@ -230,7 +226,7 @@ header .header-img {
   align-items: center;
   flex-direction: column;
   position: relative;
-  width: 280px;
+  width: 240px;
   height: 300px;
 }
 @media (max-width: 599px) {
@@ -242,12 +238,20 @@ header .header-img {
   opacity: 1;
   bottom: 50%;
 }
+.s-cards .card:hover > img {
+  filter: grayscale(100%) brightness(50%);
+}
 .s-cards .card img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
   filter: grayscale(100%) brightness(80%);
+}
+@media (max-width: 599px) {
+  .s-cards .card img {
+    filter: grayscale(100%) brightness(50%);
+  }
 }
 .s-cards .card p {
   opacity: 0;
@@ -259,7 +263,7 @@ header .header-img {
   font-size: 1.6rem !important;
   text-shadow: 2px 0px 6px rgba(0, 0, 0, 0.6);
   text-align: center;
-  transition: all 0.3s ease;
+  transition: all 0.4s ease;
   font-family: "Albert Sans", sans-serif;
   text-transform: uppercase;
 }
