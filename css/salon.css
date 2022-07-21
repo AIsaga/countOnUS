@@ -163,10 +163,10 @@ header .header-img {
   }
 }
 .brand-info .heater-text-one {
-  font-family: "Cinzel", serif;
-  font-size: 1.6rem;
-  color: #ffffff;
   text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.6);
+}
+.brand-info .heater-text-one img {
+  width: 200px;
 }
 .brand-info .heater-text-two {
   font-family: "Albert Sans", sans-serif;
@@ -286,8 +286,9 @@ header .header-img {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-top: 5%;
-  filter: grayscale(100%);
+  margin-top: 3%;
+  margin-bottom: 5%;
+  filter: grayscale(10%);
 }
 
 #gmap_canvas {
