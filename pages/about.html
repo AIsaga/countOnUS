@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Count On Us</title>
+        <link rel="stylesheet" href="../css/main.css" />
+        <link rel="stylesheet" href="../css/about.css" />
+    </head>
+
+    <body>
+        <!-- event button -->
+        <nav>
+            <div class="about" id="about">
+                <a href="../index.html" id="about-btn">Home</a>
+            </div>
+            <div class="wrap" id="wrap">
+                <button id="live-btn" class="button">live</button>
+            </div>
+        </nav>
+        <!-- event update box -->
+        <section id="section_one">
+            <div class="main_container">
+                <div class="bgImg">
+                    <img src="../images/worldmap_us.svg" alt="world_map">
+                </div>
+                <div class="inner_container">
+                    <div class="main_wrapper">
+                        <div class="main_container_left">
+                            <div class="brand_logo_container">
+                                <div class="brand_img">
+                                    <img src="../images/image2vector.svg" alt="count on us" />
+                                </div>
+                                <div class="brand_name_1">
+                                    <p>Count On Us</p>
+                                </div>
+                                <div class="brand_name_2">
+                                    <p>HOSPITALITY</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="info">
+                            <h2>
+                                Welcome to Count On Us Financial and Hospitality Solutions
+                            </h2>
+                            <p>
+                                Two decades of hospitality experience has enabled us to formulate meticulous well
+                                planned system and procedure which we
+                                employ along with strategic advice to grow your business and help it prosper.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="ev-container" id="ev-tgl">
+                    <div class="ev-inner">
+                        <div id="scroll-container">
+                            <div id="scroll-text">
+                                <ul>
+                                    <!-- ========================================================== -->
+                                    <!-- ==========================EVENTS========================== -->
+                                    <!-- ========================================================== -->
+
+
+                                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, aliquam?</li>
+                                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, aliquam?</li>
+                                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, aliquam?</li>
+                                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, aliquam?</li>
+
+
+                                    <!-- ============================================================== -->
+                                    <!-- ==========================EVENTS END========================== -->
+                                    <!-- ============================================================== -->
+                                </ul>
+                                <div>
+                                </div>
+                            </div>
+                        </div>
+        </section>
+        </div>
+        <script>
+            const btnId = document.getElementById('wrap');
+            const evBox = document.getElementById('ev-tgl');
+            btnId.addEventListener('click', () => {
+                evBox.classList.toggle('ev-toggle')
+            })
+        </script>
+    </body>
+
+</html>

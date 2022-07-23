@@ -68,6 +68,83 @@ header .img-container img {
   }
 }
 
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 30px;
+  width: 50%;
+  z-index: 5;
+  margin-top: 20px;
+}
+.nav a {
+  text-decoration: none;
+  font-size: 1rem;
+  color: rgb(0, 0, 0);
+  letter-spacing: 2px;
+}
+@media (max-width: 599px) {
+  .nav a {
+    color: rgb(255, 255, 255);
+  }
+}
+.nav a span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 3px;
+}
+.nav a:hover a:first-child {
+  text-decoration: underline;
+}
+@media (max-width: 599px) {
+  .nav {
+    display: none;
+    position: absolute;
+    z-index: 10;
+  }
+}
+
+.nav-mobi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  display: none;
+  gap: 30px;
+  width: 100%;
+  position: absolute;
+  bottom: 5%;
+  right: 0;
+  z-index: 5;
+}
+@media (max-width: 599px) {
+  .nav-mobi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+}
+.nav-mobi a {
+  text-decoration: none;
+  font-size: 1rem;
+  color: #fff;
+  letter-spacing: 2px;
+}
+.nav-mobi a span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 3px;
+}
+.nav-mobi a:hover a:first-child {
+  text-decoration: underline;
+}
+
 .top-container {
   display: flex;
   justify-content: center;
@@ -89,7 +166,7 @@ header .img-container img {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 34vh;
+    height: 40vh;
     background-color: rgb(0, 0, 0);
     position: absolute;
     z-index: 6;
@@ -99,7 +176,7 @@ header .img-container img {
 
 .brand_logo_container {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   flex-direction: column;
   background-color: rgba(0, 0, 0, 0);
@@ -130,13 +207,14 @@ header .img-container img {
 }
 @media (max-width: 599px) {
   .brand_logo_container .brand_img {
-    margin: -10px auto 0;
+    margin: 30px auto 0;
   }
 }
 .brand_logo_container .brand_name_1 {
   font-family: "chopin";
   font-size: 6rem;
   margin-top: -70px;
+  margin-left: -50px;
   color: #fff;
 }
 @media (max-width: 599px) {
@@ -147,8 +225,9 @@ header .img-container img {
 }
 .brand_logo_container .brand_name_2 {
   font-family: Raleway;
-  font-size: 2rem;
+  font-size: 1.6rem;
   font-weight: 300;
+  letter-spacing: 5px;
   margin-top: -20px;
   color: #fff;
   font-family: "Khand", sans-serif;
@@ -176,7 +255,7 @@ header .img-container img {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: row;
+  flex-direction: column;
   flex: 2;
 }
 .bottom-container .right-wrp-bottom p {
@@ -184,7 +263,7 @@ header .img-container img {
   font-size: 1.2rem;
   line-height: 2.2rem;
   font-weight: 600;
-  text-align: center;
+  text-align: justify;
   font-family: "Cinzel", serif;
 }
 @media (max-width: 599px) {
@@ -224,6 +303,10 @@ header .img-container img {
 }
 .column img {
   filter: grayscale(100%);
+  transition: all 0.1s ease-in-out;
+}
+.column:hover > img {
+  filter: grayscale(0%);
 }
 
 .column img {
