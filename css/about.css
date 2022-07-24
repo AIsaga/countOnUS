@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Abel&family=Khand:wght@300;400;500;600;700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Cinzel:wght@400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Arapey:ital@0;1&family=Cinzel:wght@400;500;600;700;800&display=swap");
 @font-face {
   font-family: "chopin";
   src: url("../fonts/ChopinScript.otf") format("woff");
@@ -9,9 +8,9 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  flex: 1;
+  flex: 2;
   width: 50%;
-  color: #fff;
+  color: rgb(20, 20, 20);
 }
 @media (max-width: 599px) {
   .info {
@@ -19,13 +18,16 @@
   }
 }
 .info h2 {
+  font-family: "Arapey", serif;
+  color: rgb(31, 31, 31);
   text-align: center;
   font-size: 2rem;
-  text-shadow: 1px 0px 8px rgba(5, 5, 5, 0.6);
+  text-shadow: 1px 0px 8px rgba(103, 103, 103, 0.6);
 }
 .info p {
+  font-family: "Arapey", serif;
   text-align: center;
   font-size: 1.5rem;
-  text-shadow: 1px 0px 8px rgba(5, 5, 5, 0.6);
+  text-shadow: 1px 0px 8px rgba(142, 142, 142, 0.6);
   margin: 15px;
 }/*# sourceMappingURL=about.css.map */

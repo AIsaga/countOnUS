@@ -314,7 +314,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column-reverse;
+    flex-direction: column;
   }
 }
 .wrapper .s-2-info-container {
@@ -335,6 +335,7 @@ header {
 }
 @media (max-width: 599px) {
   .wrapper .s-2-info-container {
+    width: 100%;
     line-height: 2.2rem;
     padding: 40px;
   }
@@ -349,7 +350,7 @@ header {
 }
 @media (max-width: 599px) {
   .wrapper .s-2-info-container ul {
-    width: 100%;
+    width: 80%;
     font-size: 1.1rem;
   }
 }
@@ -361,7 +362,13 @@ header {
 }
 @media (max-width: 599px) {
   .wrapper .s-2-info-container h1 {
-    width: 95%;
+    width: 80%;
+  }
+}
+
+@media (max-width: 599px) {
+  .services-mid {
+    flex-direction: column-reverse;
   }
 }
 
