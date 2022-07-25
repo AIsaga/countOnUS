@@ -39,7 +39,7 @@
 }
 
 body {
-  background-color: #dbdbdb;
+  background-color: #000000;
 }
 
 #header-img {
@@ -59,7 +59,7 @@ body {
 }
 @media (max-width: 599px) {
   .header-img {
-    height: 40vh;
+    height: 30vh;
     -o-object-fit: cover;
        object-fit: cover;
     background-size: contain;
@@ -208,9 +208,10 @@ header {
 }
 @media (max-width: 599px) {
   .brand-info {
+    justify-content: flex-end;
     width: 100%;
-    height: 64vh;
-    background-color: #000000;
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.2156862745);
   }
 }
 .brand-info .header-text-one {
@@ -317,6 +318,7 @@ header {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-color: #000000;
   }
 }
 .wrapper .s-2-info-container {
@@ -327,19 +329,20 @@ header {
   flex: 1;
   font-family: "Albert Sans", sans-serif;
   color: rgb(255, 255, 255);
-  background-color: #000;
+  background-color: rgb(0, 0, 0);
   font-size: 1.1rem;
   font-weight: 200;
   font-style: italic;
   letter-spacing: 1px;
   line-height: 2rem;
-  height: 350px;
+  min-height: 350px;
 }
 @media (max-width: 599px) {
   .wrapper .s-2-info-container {
     width: 100%;
-    line-height: 2.2rem;
-    padding: 40px;
+    line-height: 2rem;
+    padding: 20px;
+    min-height: 400px;
   }
 }
 .wrapper .s-2-info-container ul {
@@ -353,11 +356,11 @@ header {
 @media (max-width: 599px) {
   .wrapper .s-2-info-container ul {
     width: 80%;
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
 }
 .wrapper .s-2-info-container h1 {
-  width: 60%;
+  width: 70%;
   text-align: left;
   font-style: normal;
   margin-bottom: 10px;
