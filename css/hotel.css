@@ -81,6 +81,7 @@ header {
   header {
     top: auto;
     bottom: 0;
+    left: 0;
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
