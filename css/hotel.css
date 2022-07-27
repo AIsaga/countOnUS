@@ -145,7 +145,7 @@ header {
 @media (max-width: 599px) {
   .brand_logo_container .brand_img {
     margin: 10px auto 0;
-    width: 200px;
+    width: 250px;
   }
 }
 .brand_logo_container .brand_img img {
@@ -172,7 +172,7 @@ header {
 }
 @media (max-width: 599px) {
   .brand_logo_container .brand_name_1 {
-    margin-top: 0px;
+    margin-top: -10px;
     font-size: 2.5rem;
   }
 }
@@ -222,6 +222,7 @@ header {
   letter-spacing: 1px;
   color: rgb(255, 255, 255);
   text-align: center;
+  margin-top: 20px;
   text-shadow: 1px 0px 8px rgba(41, 41, 41, 0.6);
 }
 @media (max-width: 599px) {

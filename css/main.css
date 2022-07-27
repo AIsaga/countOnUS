@@ -361,7 +361,7 @@ button:focus::after {
 @media (max-width: 599px) {
   .brand_logo_container .brand_img img {
     margin: 100px auto 0;
-    width: 70%;
+    width: 100%;
   }
 }
 @media (max-width: 599px) {
@@ -380,7 +380,7 @@ button:focus::after {
 @media (max-width: 599px) {
   .brand_logo_container .brand_name_1 {
     margin-top: -14px;
-    margin-left: -40px;
+    margin-left: -10px;
     font-size: 3rem;
   }
 }
@@ -398,9 +398,14 @@ button:focus::after {
 @media (max-width: 599px) {
   .brand_logo_container .brand_name_2 {
     margin-top: -2px;
-    font-size: 12px;
-    margin-left: 3px;
+    font-size: 14px;
+    margin-left: 20px;
     letter-spacing: 6px;
+  }
+}
+@media (max-width: 599px) {
+  .brand_logo_container {
+    margin-top: -5%;
   }
 }
 
@@ -437,7 +442,7 @@ button:focus::after {
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  gap: 8pc;
+  gap: 9vw;
 }
 @media (max-width: 599px) {
   .inner-flex {
