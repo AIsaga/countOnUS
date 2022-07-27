@@ -346,12 +346,12 @@ button:focus::after {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 400px;
+  width: 500px;
 }
 @media (max-width: 599px) {
   .brand_logo_container .brand_img {
     margin: 10px auto 0;
-    width: 300px;
+    width: 350px;
   }
 }
 .brand_logo_container .brand_img img {
@@ -366,38 +366,41 @@ button:focus::after {
 }
 @media (max-width: 599px) {
   .brand_logo_container .brand_img {
-    margin-top: -5pc;
+    margin-top: -3pc;
   }
 }
 .brand_logo_container .brand_name_1 {
   font-family: "chopin";
-  font-size: 6rem;
-  margin-top: -70px;
-  margin-left: -50px;
+  font-size: 5rem;
+  margin-top: -30px;
+  margin-left: -30px;
   color: #ffffff;
   text-shadow: 1px 0px 8px rgba(5, 5, 5, 0.6);
 }
 @media (max-width: 599px) {
   .brand_logo_container .brand_name_1 {
-    margin-top: -30px;
+    margin-top: -14px;
     margin-left: -40px;
-    font-size: 3.5rem;
+    font-size: 3rem;
   }
 }
 .brand_logo_container .brand_name_2 {
   font-family: Raleway;
-  font-size: 2rem;
+  font-size: 1.5rem;
   letter-spacing: 8px;
   font-weight: 400;
   margin-top: -20px;
+  margin-left: 30px;
   color: #ffffff;
   text-shadow: 1px 0px 8px rgba(5, 5, 5, 0.6);
   font-family: "Albert Sans", sans-serif;
 }
 @media (max-width: 599px) {
   .brand_logo_container .brand_name_2 {
-    margin-top: 5px;
-    font-size: 1rem;
+    margin-top: -2px;
+    font-size: 12px;
+    margin-left: 3px;
+    letter-spacing: 6px;
   }
 }
 
