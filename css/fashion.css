@@ -166,7 +166,7 @@ header .img-container img {
     align-items: center;
     flex-direction: column;
     justify-content: flex-start;
-    height: 50vh;
+    height: 100vh;
     background-color: rgba(0, 0, 0, 0.376);
     position: absolute;
     z-index: 6;
@@ -188,12 +188,12 @@ header .img-container img {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 400px;
+  width: 500px;
 }
 @media (max-width: 599px) {
   .brand_logo_container .brand_img {
     margin: 10px auto 0;
-    width: 200px;
+    width: 300px;
   }
 }
 .brand_logo_container .brand_img img {
@@ -207,19 +207,19 @@ header .img-container img {
 }
 @media (max-width: 599px) {
   .brand_logo_container .brand_img {
-    margin: -30px auto 0;
+    margin: 10% auto 0;
   }
 }
 .brand_logo_container .brand_name_1 {
   font-family: "chopin";
-  font-size: 5rem;
-  margin-top: -50px;
-  margin-left: -30px;
+  font-size: 4rem;
+  margin-top: -20px;
+  margin-left: -10px;
   color: #fff;
 }
 @media (max-width: 599px) {
   .brand_logo_container .brand_name_1 {
-    margin-top: -24px;
+    margin-top: -20px;
     font-size: 3rem;
   }
 }
@@ -228,13 +228,14 @@ header .img-container img {
   font-size: 1.5rem;
   font-weight: 300;
   letter-spacing: 5px;
-  margin-top: -20px;
+  margin-top: -10px;
+  margin-left: 23px;
   color: #fff;
   font-family: "Khand", sans-serif;
 }
 @media (max-width: 599px) {
   .brand_logo_container .brand_name_2 {
-    margin-top: 10px;
+    margin-top: 0px;
     font-size: 1rem;
     letter-spacing: 4px;
   }
@@ -289,9 +290,9 @@ header .img-container img {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 30vh;
+    height: 40vh;
     color: #fff;
-    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
     position: absolute;
     z-index: 999;
     bottom: 0;
